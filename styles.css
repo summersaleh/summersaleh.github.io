@@ -1,7 +1,7 @@
 h1 {
 	color: #405d27;
 	font-family:'Dosis', sans-serif;;
-	text-decoration: underline;
+	border: bottom solid grey;
 }
 
 li {
