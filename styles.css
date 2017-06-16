@@ -4,10 +4,10 @@ header {
 }
 h1 {
 	color: powderblue;
-	font-family:'Dosis', sans-serif;;
+	font-family: 'Dosis', sans-serif;
 }
 
-li.nav {
+nav li {
 
 	display: inline;
 	color: grey;
@@ -21,7 +21,7 @@ p {
 
 }
 
-li.projects {
+article li {
 	color: grey;
 	text-decoration: none;
 }
