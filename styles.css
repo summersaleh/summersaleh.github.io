@@ -10,4 +10,5 @@ header {
 nav {
 	color: grey;
 	text-decoration: none;
+	position: right top;
 }
