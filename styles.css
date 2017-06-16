@@ -7,7 +7,7 @@ h1 {
 	font-family:'Dosis', sans-serif;;
 }
 
-.nav li {
+li.nav {
 
 	display: inline;
 	color: grey;
