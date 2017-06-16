@@ -1,10 +1,13 @@
+header {
+
+	border: solid grey;
+}
 #name {
 	color: #405d27;
 	font-family:'Dosis', sans-serif;;
-	border: solid grey;
 }
 
-ul {
+nav {
 	color: grey;
 	text-decoration: none;
 }
