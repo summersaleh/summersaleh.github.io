@@ -4,6 +4,7 @@ h1{
 	border: solid grey;
 }
 
-li {
+ul {
 	color: grey;
+	text-decoration: none;
 }
