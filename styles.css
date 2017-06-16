@@ -1,4 +1,9 @@
-#name {
+h1 {
 	color: olive;
-	font-family: 'Pangolin', cursive;
+	font-family:'Dosis', sans-serif;;
+	text-decoration: underline;
+}
+
+li {
+	text-align: right top;
 }
