@@ -8,6 +8,8 @@ h1 {
 }
 
 li a {
+	
+	display: inline;
 	color: grey;
 	list-style-type: none;
 	text-decoration: none;
@@ -16,5 +18,5 @@ li a {
 
 p {
 	font-style: Arial;
-	
+
 }
