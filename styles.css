@@ -1,0 +1,15 @@
+header {
+
+	border: solid grey;
+}
+h1 {
+	color: teal;
+	font-family:'Dosis', sans-serif;;
+}
+
+li a {
+	color: grey;
+	list-style-type: none;
+	text-decoration: none;
+	text-align: right;
+}
