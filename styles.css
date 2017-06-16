@@ -7,8 +7,8 @@ header {
 	font-family:'Dosis', sans-serif;;
 }
 
-nav {
+nav a:link {
 	color: grey;
 	text-decoration: none;
-	position: right top;
+	text-align: right;
 }
