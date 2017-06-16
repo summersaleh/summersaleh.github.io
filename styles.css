@@ -3,7 +3,7 @@ header {
 	border: solid grey;
 }
 h1 {
-	color: teal;
+	color: powderblue;
 	font-family:'Dosis', sans-serif;;
 }
 
@@ -12,4 +12,9 @@ li a {
 	list-style-type: none;
 	text-decoration: none;
 	text-align: right;
+}
+
+p {
+	font-style: Arial;
+	
 }
