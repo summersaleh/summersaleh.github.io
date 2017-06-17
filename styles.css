@@ -8,13 +8,16 @@ h1 {
 	font-family:'Dosis', sans-serif;;
 }
 
+.nav:hover {
+	color: grey;
+}
+
 .nav {
     float: right;
 	display: inline;
 	color: grey;
 	list-style-type: none;
 	text-decoration: none;
-	text-align: right;
 }
 
 p {
@@ -26,6 +29,7 @@ p {
 .projects {
 	color: grey;
 	text-decoration: none;
+	list-style-type: none;
 }
 
 .img-circle {
