@@ -3,12 +3,13 @@ header {
 	border: solid grey;
 }
 h1 {
+	float: left;
 	color: powderblue;
 	font-family:'Dosis', sans-serif;;
 }
 
 .nav {
-
+    float: right;
 	display: inline;
 	color: grey;
 	list-style-type: none;
@@ -17,6 +18,7 @@ h1 {
 }
 
 p {
+	float: right;
 	font-style: Arial;
 
 }
