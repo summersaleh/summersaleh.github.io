@@ -1,6 +1,6 @@
 header {
 
-	border: solid grey;
+	border-bottom: solid grey;
 }
 h1 {
 	float: left;
@@ -13,7 +13,7 @@ h1 {
 }
 
 .nav {
-    float: right;
+    text-align: right;
 	display: inline;
 	color: grey;
 	list-style-type: none;
