@@ -21,7 +21,7 @@ h1 {
 }
 
 p {
-	float: right;
+	text-align: right;
 	font-style: Arial;
 
 }
