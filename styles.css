@@ -1,37 +1,48 @@
 header {
 
 	border-bottom: solid grey;
+	border-width: 1px;
+	padding-bottom: 60px;
 }
-h1 {
+p.name {
 	float: left;
 	color: powderblue;
-	font-family:'Dosis', sans-serif;;
+	font-family:'Dosis', sans-serif;
+	font-size: 36px;
+	margin-top: 0.03px;
 }
 
-.nav:hover {
-	color: grey;
+nav {
+	float: right;
+	margin-top: 0.03px;
 }
-
-.nav {
-    text-align: right;
-	display: inline;
-	color: grey;
+nav li {
+	display: inline-block;
+	margin: 0 0.45em;
 	list-style-type: none;
 	text-decoration: none;
+	color: darkgrey;
 }
 
-p {
-	text-align: right;
+
+section.aboutme {
+    margin-top: 15%;
+	margin-right: 5%;
+	margin-left: 50%;
+	position: absolute;
+    top: 8px;
+    right: 16px;
+	text-align: left;
 	font-style: Arial;
 
 }
 
-.projects {
-	color: grey;
-	text-decoration: none;
-	list-style-type: none;
-}
-
 .img-circle {
 	border-radius: 50%;
+	width: 20%;
+	margin-left: 30px;
+}
+
+div.project1 {
+	position: center;
 }
