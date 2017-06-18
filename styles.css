@@ -1,0 +1,105 @@
+header {
+
+	border-bottom: solid grey;
+	border-width: 1px;
+	padding-bottom: 70px;
+	background-color: none;
+}
+a:active {
+	color: grey;
+}
+p.name {
+	float: left;
+	color: mediumaquamarine;
+	font-family:'Dosis', sans-serif;
+	font-size: 36px;
+	margin-top: 0.03px;
+
+}
+
+article img {
+	border: grey;
+	border-style: double;
+}
+
+nav {
+	font-family: Arial;
+	color: grey;
+	font-size: 20px;
+	float: right;
+	margin-top: 0.03px;
+	text-decoration: none;
+
+}
+
+
+a {
+	color: lightgrey;
+text-decoration: none;
+position: center;
+font-family: Arial;
+}
+#WCCI {
+text-decoration: none;
+color: black
+}
+#WCCI:hover {
+	color: lightgrey;
+}
+nav li {
+	display: inline-block;
+	margin: 0 0.45em;
+	list-style-type: none;
+
+}
+
+#contact {
+	margin-left: 47%;
+	
+}
+#contact1 {
+	margin-right: 45%;
+}
+
+section.aboutme {
+    margin-top: 12%;
+	margin-right: 5%;
+	margin-left: 50%;
+	position: absolute;
+    top: 8px;
+    right: 16px;
+    text-align: left;
+	font-family:'Dosis', sans-serif;
+
+}
+
+
+
+.img-circle {
+	border-radius: 60%;
+	width: 25%;
+	margin-top: 5%;
+	margin-left: 80px;
+}
+
+p{
+	font-family:'Dosis', sans-serif;
+}
+
+section.projects{
+	float: center;
+	padding-left: 35%;
+    padding-right: 25%
+}
+
+footer {
+	border: solid; 
+	border-color: mediumaquamarine;
+	background-color: mediumaquamarine;
+	text-align: center;
+}
+
+
+
+
+
