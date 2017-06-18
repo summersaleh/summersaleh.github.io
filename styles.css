@@ -4,6 +4,9 @@ header {
 	border-width: 1px;
 	padding-bottom: 60px;
 }
+a:active {
+	color: grey;
+}
 p.name {
 	float: left;
 	color: powderblue;
@@ -12,7 +15,10 @@ p.name {
 	margin-top: 0.03px;
 }
 
+
 nav {
+	color: grey;
+	font-size: 22px;
 	float: right;
 	margin-top: 0.03px;
 }
@@ -34,6 +40,11 @@ section.aboutme {
     right: 16px;
 	text-align: left;
 	font-style: Arial;
+
+}
+
+section.project1 {
+	padding-top: 30%;
 
 }
 
