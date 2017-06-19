@@ -1,3 +1,8 @@
+body {
+	max-width: 1000px;
+	min-width: 800px;
+	margin: auto;
+}
 header {
 
 	border-bottom: solid grey;
@@ -61,24 +66,23 @@ nav li {
 	margin-right: 45%;
 }
 
-section.aboutme {
-    margin-top: 12%;
-	margin-right: 5%;
-	margin-left: 50%;
-    top: 8px;
-    right: 16px;
+.aboutme {
+    margin-right: 5px;
+	margin-left: 60px;
     text-align: left;
 	font-family:'Dosis', sans-serif;
+	display: inline-block;
 
 }
 
 
 
 .img-circle {
-	border-radius: 60%;
+	border-radius: 50%;
 	width: 25%;
 	margin-top: 5%;
-	margin-left: 80px;
+	margin-right: 60px;
+	display: inline-block;
 }
 
 p{
@@ -97,8 +101,6 @@ footer {
 	background-color: mediumaquamarine;
 	text-align: center;
 }
-
-
 
 
 
