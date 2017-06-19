@@ -29,7 +29,7 @@ article img {
 
 nav {
 	font-family: Arial;
-	color: grey;
+	color: darkgrey;
 	font-size: 20px;
 	float: right;
 	margin-top: 0.03px;
@@ -39,7 +39,7 @@ nav {
 
 
 a {
-	color: lightgrey;
+	color: darkgrey;
 text-decoration: none;
 position: center;
 font-family: Arial;
