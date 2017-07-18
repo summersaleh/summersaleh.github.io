@@ -1,0 +1,58 @@
+body {
+	margin: 0;
+	padding:0;
+}
+
+#columbus {
+	display: flex;
+	width: 400px;
+	height: 300px;
+}
+
+#bali {
+	display: flex;
+	width: 400px;
+	height: 300px;
+}
+
+#nepal {
+	display: flex;
+	width: 400px;
+	height: 300px;
+}
+
+.travelHeader {
+display: flex;
+justify-content: center;
+position: absolute;
+top: 0;
+bottom: 0;
+right: 0;
+left: 0;
+width: 100%;
+height: 50%;
+transform: skewY(-6deg);
+transform-origin: top left;
+background-color: green;
+
+}
+
+.textHeader {
+	margin-top: 100px;
+}
+
+
+.container {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	align-items: space-around;
+	align-content: space-between;
+	margin-top: 500px;
+}
+
+footer {
+	background-color: green;
+	margin-top: 100px;
+	padding: 25px;
+}
