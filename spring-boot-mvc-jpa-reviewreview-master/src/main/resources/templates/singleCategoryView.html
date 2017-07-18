@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<title th:text="'Single Category: ' + ${singleCategoryModel.name}" />
+</head>
+<body>
+	<h1 th:text="${singleCategoryModel.name}" />
+
+	<p th:text="'Categories count: ' + ${singleCategoryModel.reviews.size()}" />
+	<form method="POST">
+		<input type="hidden" name="categoryId" th:value="${singleCategoryModel.id}" />
+		<label>Title: <input type="text" name="title" /></label>
+		<br/>
+		<label>Content: <textarea name="content" rows="10" cols="50">default content</textarea></label>
+		<button th:formaction="@{/createReview}">create me</button>		
+		<h2>Current reviews</h2>
+		<ul>
+			<li th:each="currentReview: ${singleCategoryModel.reviews}"><a
+				th:text="${currentReview.title}"
+				th:href="@{/review(reviewId=${currentReview.id})}" />
+				<button th:formaction="@{/deleteReview}" name="reviewId" th:value="${currentReview.id}">delete me</button></li>
+		</ul>
+	</form>
+</body>
+</html>

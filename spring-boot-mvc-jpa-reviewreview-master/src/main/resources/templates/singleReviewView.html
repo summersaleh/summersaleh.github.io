@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<title>Single Review: ${singleReviewModel.title}</title>
+</head>
+<body>
+	<h1 th:text="'Review for: ' + ${singleReviewModel.title}" />
+	
+	<article th:text="${singleReviewModel.content}"/>
+	
+	<p th:text="'Its class is ' + ${singleReviewModel.class}" />
+</body>
+</html>

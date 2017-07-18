@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<title>Reviews</title>
+</head>
+<body>
+	<p th:text="${allReviewsModel}" />
+	<p th:text="'its class is ' + ${allReviewsModel.class}" />
+	<p th:text="'its hashcode is ' + ${allReviewsModel.hashCode()}" />
+	<p th:text="'its size is ' + ${allReviewsModel.size()}" />
+
+	<ul>
+		<li th:each="currentReview: ${allReviewsModel}"
+			th:text="${currentReview}" />
+
+		<li>Repeat:</li>
+		<li th:each="currentReview: ${allReviewsModel}">
+			<p th:text="${currentReview}" />
+		</li>
+
+	</ul>
+
+	<p>We can't see ${currentReview} anymore:</p>
+	<p th:text="'Current review is now ' + ${currentReview}" />
+
+	<h1>These are the links</h1>
+	<ul>
+		<li th:each="currentReview: ${allReviewsModel}">
+			<a th:text="${currentReview.title}"  th:href="@{/review(reviewId=${currentReview.id})}"/>
+		</li>
+	</ul>
+</body>
+</html>

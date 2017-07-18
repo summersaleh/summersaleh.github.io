@@ -1,0 +1,10 @@
+Spring Web App Step by step
+-----------------------------
+
+Model = States and Cities
+
+one to many
+states
+
+many to one 
+cities

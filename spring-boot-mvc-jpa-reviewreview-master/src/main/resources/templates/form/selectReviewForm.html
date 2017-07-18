@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<title>Select a Review</title>
+<style type="text/css">
+	h1 { font-size: 1.5rem; }
+</style>
+</head>
+<body>
+	<!-- default method is GET -->
+	<!-- with input for submission -->
+	<h1>GET using &lt;input&gt; element for submit button</h1>
+	<p>The default method for a form is GET, so we haven't specified it.</p>
+	<form action="/review">
+		<label>
+			Review id: <input type="text" name="reviewId" />
+		</label>
+		<input type="submit" value="Go get it" />
+	</form>
+	
+	<h1>GET using &lt;button&gt; element for submit button</h1>
+	<form action="/review">
+		<label>
+			Review id: <input type="text" name="reviewId" />
+		</label>
+		<button type="submit">Go get it</button>
+	</form>
+	
+	<h1>Now with radio button!</h1>
+	<form action="/review">
+		<label>
+			Review id:
+			<label><input type="radio" name="reviewId" value="1" /> ID 1</label>
+			<label><input type="radio" name="reviewId" value="2" /> ID 2</label>
+			<label th:each="review: ${reviews}">
+				<input type="radio" name="reviewId" th:value="${review.id}" th:text="' ID ' + ${review.id}" />
+			</label>
+		</label>
+		<button type="submit">Go get it</button>
+		<button type="reset">Wipe out all my work!</button>
+	</form>
+	
+	<h1>Now with select!</h1>
+		<form action="/review" method="GET"><!-- GET is the default -->
+		<label>
+			Review id: <select name="reviewId">
+				<option>--</option>
+				<option value="1">ID 1</option>
+				<option value="2" selected="selected">ID 2</option>
+				<option>Built with Thymeleaf iteration:</option>
+				<option th:each="review: ${reviews}" th:value="${review.id}" th:text="${review.title}" />
+			</select>
+		</label>
+		<button type="submit">Go get it</button>
+	</form>
+	
+	<h1>Using POST</h1>
+		<form action="/review" method="POST">
+		<label>
+			Review id: <select name="reviewId">
+				<option th:each="review: ${reviews}" th:value="${review.id}" th:text="${review.title}" />
+			</select>
+		</label>
+		<input type="hidden" name="withWeirdCharacters" value="&gt;&lt;" />
+		<button type="submit">Go get it</button>
+	</form>
+</body>
+</html>
