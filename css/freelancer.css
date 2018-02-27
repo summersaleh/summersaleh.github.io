@@ -429,11 +429,6 @@ fieldset[disabled] .btn-success.active {
   z-index: 1049;
 }
 
-
-.img-responsive {
-  border-radius: 50%;
-  width: 25%;
-}
 .scroll-top .btn {
   font-size: 20px;
   width: 50px;
