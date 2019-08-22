@@ -1,2 +1,61 @@
 /* <!-- Styles for Portfolio --> */
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
 
+.header-copy-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 35px;
+}
+
+.header-name {
+    font-family: "HelveticaNeue";
+    color: #C9AF98;
+}
+
+.header-role {
+    font-family: "HelveticaNeue";
+    font-weight: 100;
+    color: #C9AF98;
+}
+
+.nav-container {
+    background-color: #3A4660;
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding: .5rem 1rem;
+}
+
+.navbar-copy {
+    padding-top: .25rem;
+    padding-bottom: .25rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+    justify-content: flex-end;
+    display: flex;
+}
+
+.about-container {
+    background-color: #C9AF98;
+    max-width: 1536px;
+    width: 100%;
+    padding: 0;
+    position: relative;
+    min-height: 480px;
+    margin-left: auto;
+    margin-right: auto;
+}
