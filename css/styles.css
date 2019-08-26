@@ -119,6 +119,15 @@
   align-items: center;
 }
 
+.download-button {
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 20px;
+    background-color: #ed8a63;
+}
+
 .portfolio-container {
   display: flex;
   justify-content: space-around;
