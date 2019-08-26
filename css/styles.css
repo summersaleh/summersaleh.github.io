@@ -8,13 +8,13 @@
 /* Header Styles */
 @media only screen and (max-width: 991px) {
  .header-name {
-    font-size: 3.5rem; 
+    font-size: 4.5rem; 
     margin-bottom: .5rem;
     font-weight: 500;
     line-height: 1.1;
  } 
  .header-role {
-    font-size: 3rem;
+    font-size: 4rem;
     margin-bottom: .5rem;
     line-height: 1.1;
   } 
@@ -92,8 +92,16 @@
     padding: 15px;
   }
   .navbar-copy {
+    color: #c9af98;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+    margin-right: 1rem;
     font-size: 3.25rem;
-  } 
+    line-height: inherit;
+    white-space: nowrap;
+    justify-content: flex-end;
+    display: flex;
+  }
 }
 .nav-container {
   background-color: #3a4660;
@@ -110,19 +118,20 @@
 .nav-container a.icon {
   display: none;
 }
+.navbar-copy {
+    color: #c9af98;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+    justify-content: flex-end;
+    display: flex;
+  }
 }
 
-.navbar-copy {
-  color: #c9af98;
-  padding-top: 0.25rem;
-  padding-bottom: 0.25rem;
-  margin-right: 1rem;
-  font-size: 1.25rem;
-  line-height: inherit;
-  white-space: nowrap;
-  justify-content: flex-end;
-  display: flex;
-}
+
 
 .navbar-copy:hover {
   color: #c9af98 !important;
