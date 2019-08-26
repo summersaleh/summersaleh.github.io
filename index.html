@@ -35,52 +35,89 @@
 
 
     </nav>
-    <div class="about-container">
+    <div class="about-container" id="about">
 
     </div>
-    <div class="resume-container">
+    <div class="resume-container" id="resume">
         <a href="docs/SummerSalehUXResume.pdf" download="SummerSalehUXResume.pdf" rel="noopener" target="_blank">
             <button class="download-button" id="" type="button">DOWNLOAD RESUME</button>
         </a>
     </div>
-    <div class="portfolio-container">
-            <img id="myImg" src="images/modal-1-cover.png"> 
+    <div class="portfolio-container" id="portfolio">
+            <img class="image-style" id="myImg1" src="images/modal-1-cover.png"> 
+            <img class="image-style" id="myImg2" src="images/modal-1-cover.png">
+            <img class="image-style" id="myImg3" src="images/modal-1-cover.png">
         </div>
     </div>
 <!-- Modal 1 -->
-<div id="myModal" class="modal">
-        <span class="close">&times;</span>
+<div id="modal-1" class="modal">
+        <span class="close1">&times;</span>
         <img class="modal-content" id="img01" src="images/testpng.png">
       </div>
+
+      <!-- Modal 2 -->
+<div id="modal-2" class="modal">
+        <span class="close2">&times;</span>
+        <img class="modal-content" id="img02" src="images/testpng.png">
+      </div>
+            <!-- Modal 3 -->
+<div id="modal-3" class="modal">
+        <span class="close3">&times;</span>
+        <img class="modal-content" id="img03" src="images/testpng.png">
+      </div>
+
 
 </body>
 <script>
 // Get the modal
-var modal = document.getElementById("myModal");
-var modalOuter = document.getElementById("modal-outer");
+var modal1 = document.getElementById("modal-1");
+var modal2 = document.getElementById("modal-2");
+var modal3 = document.getElementById("modal-3");
 
 
 // Get the image and insert it inside the modal - use its "alt" text as a caption
-var img = document.getElementById("myImg");
-var modalImg = document.getElementById("img01");
-var captionText = document.getElementById("caption");
-img.onclick = function() {
-  modal.style.display = "block";
+var img1 = document.getElementById("myImg1");
+var img2 = document.getElementById("myImg2");
+var img3 = document.getElementById("myImg3");
+var modalImg1 = document.getElementById("img01");
+var modalImg2 = document.getElementById("img02");
+var modalImg3 = document.getElementById("img03");
+img1.onclick = function() {
+  modal1.style.display = "block";
+  //   modalImg.src = this.src;
+};
+img2.onclick = function() {
+  modal2.style.display = "block";
+  //   modalImg.src = this.src;
+};
+img3.onclick = function() {
+  modal3.style.display = "block";
   //   modalImg.src = this.src;
 };
 
 // Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
+var span1 = document.getElementsByClassName("close1")[0];
+var span2 = document.getElementsByClassName("close2")[0];
+var span3 = document.getElementsByClassName("close3")[0];
 
 // When the user clicks on <span> (x), close the modal
-span.onclick = function() {
-  modal.style.display = "none";
+span1.onclick = function() {
+  modal1.style.display = "none";
+};
+span2.onclick = function() {
+  modal2.style.display = "none";
+};
+span3.onclick = function() {
+  modal3.style.display = "none";
 };
 // When the user clicks anywhere outside of the modal, close it
 window.onclick = function(event) {
-  if (event.target == modal) {
-    modal.style.display = "none";
+  if (event.target == modal1 || event.target == modal2 || event.target == modal3) {
+    modal1.style.display = "none";
+    modal2.style.display = "none";
+    modal3.style.display = "none";
   }
 };
 </script>
+
 </html>

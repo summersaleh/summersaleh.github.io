@@ -180,7 +180,7 @@
   width: 100%;
   padding: 0;
   position: relative;
-  min-height: 480px;
+  min-height: 580px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -212,21 +212,22 @@
   }
   
   /* Modal Content */
-  .close:hover,
-  .close:focus {
+  .close1:hover, .close2:hover, .close3:hover,
+  .close1:focus, .close2:focus, .close3:focus {
     color: #fff;
     text-decoration: none;
     cursor: pointer;
   }
 
-  .close {
+  .close1, .close2, .close3 {
       color: #fff;
+      font-size: 3.5rem;
   }
   
   .modal-content {
     margin: auto;
 }
-#myImg {
+.image-style {
     max-width: 300px;
     width: 100%;
     height: auto;
