@@ -5,11 +5,18 @@
     font-size: 16px;
 }
 
-.header-copy-container {
+.header-container {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    margin-left: 35px;
+    margin: 25px auto;
+}
+
+.header-copy-container {
+    max-width: 1536px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .header-name {
@@ -25,20 +32,19 @@
 
 .nav-container {
     background-color: #3A4660;
-    position: relative;
+    position: sticky;
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
-    -ms-flex-direction: column;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: flex-end;
     padding: .5rem 1rem;
+
 }
 
 .navbar-copy {
+    color: #C9AF98;
     padding-top: .25rem;
     padding-bottom: .25rem;
     margin-right: 1rem;
@@ -49,8 +55,44 @@
     display: flex;
 }
 
+.navbar-copy:hover {
+    color: #C9AF98 !important;
+    text-decoration: none !important;
+    letter-spacing: 3px;
+}
+.navbar-copy:focus {
+    color: #C9AF98 !important;
+    text-decoration: none !important;
+}
+
 .about-container {
     background-color: #C9AF98;
+    max-width: 1536px;
+    width: 100%;
+    padding: 0;
+    position: relative;
+    min-height: 480px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.resume-container {
+    max-width: 1536px;
+    width: 100%;
+    padding: 0;
+    position: relative;
+    min-height: 180px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.portfolio-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3A4660;
     max-width: 1536px;
     width: 100%;
     padding: 0;
