@@ -87,10 +87,13 @@
     flex-direction: column;
   }
   .fa.fa-bars {
-    font-size: 31px;
+    font-size: 50px;
     color: white;
     padding: 15px;
   }
+  .navbar-copy {
+    font-size: 3.25rem;
+  } 
 }
 .nav-container {
   background-color: #3a4660;
