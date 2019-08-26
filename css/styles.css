@@ -5,6 +5,28 @@
     font-size: 16px;
 }
 
+@media only screen and (max-width: 768px) { 
+    .nav-container a {display: none;}
+    .nav-container a.icon {
+      float: right;
+      display: block;
+    }
+      .nav-container.responsive a {
+        float: none;
+        display: block;
+        text-align: right;
+      }
+      .nav-container.responsive {
+        flex-direction: column;
+    
+    }
+    .fa.fa-bars {
+        font-size: 31px;
+    color: white;
+    padding: 15px;
+    }
+    }
+
 .header-container {
     display: flex;
     flex-direction: column;
@@ -112,6 +134,8 @@
     margin-left: auto;
     margin-right: auto;
 }
+
+
 
 @media only screen and (min-width: 768px) { 
     .header-container {
