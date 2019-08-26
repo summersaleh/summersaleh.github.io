@@ -5,29 +5,24 @@
   font-size: 16px;
 }
 
-@media only screen and (max-width: 992px) {
-  .nav-container a {
-    display: none;
-  }
-  .nav-container a.icon {
-    float: right;
-    display: block;
-  }
-  .nav-container.responsive a {
-    float: none;
-    display: block;
-    text-align: right;
-  }
-  .nav-container.responsive {
-    flex-direction: column;
-  }
-  .fa.fa-bars {
-    font-size: 31px;
-    color: white;
-    padding: 15px;
-  }
+/* Header Styles */
+@media only screen and (max-width: 991px) {
+ .header-name {
+    font-size: 3.5rem; 
+    margin-bottom: .5rem;
+    font-weight: 500;
+    line-height: 1.1;
+ } 
+ .header-role {
+    font-size: 3rem;
+    margin-bottom: .5rem;
+    line-height: 1.1;
+  } 
+  .headshot {
+    width: 200px;
+    height: 200px;
+  } 
 }
-
 .header-container {
   display: flex;
   flex-direction: column;
@@ -61,7 +56,42 @@
   font-weight: 100;
   color: #c9af98;
 }
+@media only screen and (min-width: 992px) {
+  .header-container {
+    display: flex;
+    flex-direction: row;
+  }
+  .header-copy-container {
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+}
+/* Header End */
 
+/* Nav Start */
+
+@media only screen and (max-width: 991px) {
+  .nav-container a {
+    display: none;
+  }
+  .nav-container a.icon {
+    float: right;
+    display: block;
+  }
+  .nav-container.responsive a {
+    float: none;
+    display: block;
+    text-align: right;
+  }
+  .nav-container.responsive {
+    flex-direction: column;
+  }
+  .fa.fa-bars {
+    font-size: 31px;
+    color: white;
+    padding: 15px;
+  }
+}
 .nav-container {
   background-color: #3a4660;
   position: sticky;
@@ -72,6 +102,11 @@
   flex-direction: row;
   justify-content: flex-end;
   padding: 0.5rem 1rem;
+}
+@media only screen and (min-width: 992px) {
+.nav-container a.icon {
+  display: none;
+}
 }
 
 .navbar-copy {
@@ -95,7 +130,9 @@
   color: #c9af98 !important;
   text-decoration: none !important;
 }
+/* Nav End */
 
+/* About Start */
 .about-container {
   background-color: #c9af98;
   max-width: 1536px;
@@ -106,6 +143,9 @@
   margin-left: auto;
   margin-right: auto;
 }
+/* About End */
+
+/* Resume Start */
 .resume-container {
   max-width: 1536px;
   width: 100%;
@@ -120,13 +160,16 @@
 }
 
 .download-button {
-    border: none;
-    color: white;
-    padding: 12px 30px;
-    cursor: pointer;
-    font-size: 20px;
-    background-color: #ed8a63;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+  background-color: #ed8a63;
 }
+/* Resume End */
+
+/* Portfolio Start */
 
 .portfolio-container {
   display: flex;
@@ -142,16 +185,50 @@
   margin-right: auto;
 }
 
-@media only screen and (min-width: 992px) {
-  .header-container {
-    display: flex;
-    flex-direction: row;
-  }
-  .header-copy-container {
-    justify-content: flex-start;
-    align-items: flex-start;
-  }
-  .nav-container a.icon {
-    display: none;
-  }
+@media only screen and (max-width: 991px) {
+    .portfolio-container {
+    flex-direction: column;
+    padding: 25px;
+    }
+    .modal-styles {
+    }
 }
+/* Portfolio End */
+
+/* Modals Start */
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .close:hover,
+  .close:focus {
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .close {
+      color: #fff;
+  }
+  
+  .modal-content {
+    margin: auto;
+}
+#myImg {
+    max-width: 300px;
+    width: 100%;
+    height: auto;
+}
+/* Modals End */
