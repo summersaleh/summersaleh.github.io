@@ -5,29 +5,27 @@
   font-size: 16px;
 }
 
-
-
 /* Header Styles */
 @media only screen and (max-width: 991px) {
- .header-name {
-    font-size: 4rem; 
-    margin-bottom: .5rem;
+  .header-name {
+    font-size: 4rem;
+    margin-bottom: 0.5rem;
     font-weight: 500;
     line-height: 1.1;
- } 
- .header-role {
+  }
+  .header-role {
     font-size: 4rem;
-    margin-bottom: .5rem;
+    margin-bottom: 0.5rem;
     line-height: 1.1;
     font-family: "HelveticaNeue";
     color: #c9af98;
-  } 
+  }
   .headshot {
     width: 200px;
     height: 200px;
     border-radius: 50%;
     margin-right: 25px;
-  } 
+  }
 }
 
 .header-container {
@@ -37,8 +35,6 @@
   justify-content: center;
   align-items: center;
 }
-
-
 
 .header-copy-container {
   display: flex;
@@ -51,9 +47,7 @@
 .header-name {
   font-family: "HelveticaNeue";
   color: #c9af98;
-  
 }
-
 
 @media only screen and (min-width: 992px) {
   .header-container {
@@ -125,10 +119,10 @@
   padding: 0.5rem 1rem;
 }
 @media only screen and (min-width: 992px) {
-.nav-container a.icon {
-  display: none;
-}
-.navbar-copy {
+  .nav-container a.icon {
+    display: none;
+  }
+  .navbar-copy {
     color: #c9af98;
     padding-top: 0.25rem;
     padding-bottom: 0.25rem;
@@ -141,8 +135,6 @@
   }
 }
 
-
-
 .navbar-copy:hover {
   color: #c9af98 !important;
   text-decoration: none !important;
@@ -152,6 +144,9 @@
   color: #c9af98 !important;
   text-decoration: none !important;
 }
+
+
+
 /* Nav End */
 
 /* About Start */
@@ -187,7 +182,7 @@
     flex-direction: column;
     align-items: center;
     padding: 25px;
-  } 
+  }
 }
 
 .text-center {
@@ -223,19 +218,19 @@
   }
 }
 @media only screen and (min-width: 992px) {
-.download-button {
-  border: none;
-  color: white;
-  padding: 12px 40px;
-  cursor: pointer;
-  font-size: 20px;
-  background-color: #ed8a63;
-  font-family: "Helvetica Neue";
-}
-.fs-18-d {
-  font-size: 18px;
-  font-weight: 200;
-}
+  .download-button {
+    border: none;
+    color: white;
+    padding: 12px 40px;
+    cursor: pointer;
+    font-size: 20px;
+    background-color: #ed8a63;
+    font-family: "Helvetica Neue";
+  }
+  .fs-18-d {
+    font-size: 18px;
+    font-weight: 200;
+  }
 }
 /* Resume End */
 
@@ -248,7 +243,7 @@
   background-color: #3a4660;
   max-width: 1536px;
   width: 100%;
-  padding: 0;
+  padding: 25px;
   position: relative;
   min-height: 580px;
   margin-left: auto;
@@ -256,61 +251,75 @@
 }
 
 @media only screen and (max-width: 991px) {
-    .portfolio-container {
+  .portfolio-container {
     flex-direction: column;
-    padding: 25px;
-    }
-    .modal-styles {
-    }
+    padding: 100px 25px;
+  }
+  .modal-styles {
+  }
 }
 /* Portfolio End */
 
 /* Modals Start */
 /* The Modal (background) */
 .modal {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
-    padding-top: 100px; /* Location of the box */
-    left: 0;
-    top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-  }
-  
-  /* Modal Content */
-  .close1:hover, .close2:hover, .close3:hover,
-  .close1:focus, .close2:focus, .close3:focus {
-    color: #fff;
-    text-decoration: none;
-    cursor: pointer;
-  }
-  @media only screen and (max-width: 991px) {
-    .close1, .close2, .close3 {
-      color: #fff;
-      font-size: 7.5rem;
-      margin-left: 25px;
-  }
-  }
-  @media only screen and (min-width: 992px) {
-    .close1, .close2, .close3 {
-      color: #fff;
-      font-size: 3.5rem;
-      margin-left: 25px;
-  }
-  }
-
-  
-  .modal-content {
-    margin: auto;
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
 }
-.image-style {
-    max-width: 300px;
+
+/* Modal Content */
+.close1:hover,
+.close2:hover,
+.close3:hover,
+.close1:focus,
+.close2:focus,
+.close3:focus {
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+}
+@media only screen and (max-width: 991px) {
+  .close1,
+  .close2,
+  .close3 {
+    color: #fff;
+    font-size: 7.5rem;
+    margin-left: 25px;
+  }
+  .image-style {
+    max-width: 500px;
     width: 100%;
     height: auto;
     margin: 25px;
+  }
 }
+@media only screen and (min-width: 992px) {
+  .close1,
+  .close2,
+  .close3 {
+    color: #fff;
+    font-size: 3.5rem;
+    margin-left: 25px;
+  }
+  .image-style {
+    max-width: 300px;
+    width: 100%;
+    height: auto;
+    
+  }
+}
+
+.modal-content {
+  margin: auto;
+}
+
 /* Modals End */
