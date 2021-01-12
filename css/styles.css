@@ -77,7 +77,9 @@ a:focus {
 }
 
 /* Design Icon Styles Start */
-
+.icon-wrap.icon-wrap-home {
+  width: 500px;
+}
 .icon-design .anchor-part {
   animation: move 2s linear infinite;
 }
@@ -111,6 +113,26 @@ a:focus {
 
 .hover:hover {
   animation-play-state: running;
+}
+
+@keyframes move {
+  0%, 100% {
+    transform: translate(1px, 1px);
+  }
+
+  50% {
+    transform: translate(-1px, -1px);
+  }
+}
+
+@keyframes move2 {
+  0%, 100% {
+    transform: translate(-1px, -1px);
+  }
+
+  50% {
+    transform: translate(1px, 1px);
+  }
 }
 
 @media only screen and (max-width: 991px) {
