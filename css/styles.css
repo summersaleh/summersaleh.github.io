@@ -16,7 +16,7 @@ body {
   padding-top: 13rem;
 }
 a {
-  color: #013a20;
+  color: #000C66;
 }
 a:hover,
 a:focus {
@@ -197,186 +197,41 @@ a:focus {
   }
 }
 
-@media only screen and (max-width: 991px) {
-  .header-name {
-    font-size: 4rem;
-    margin-bottom: 0.5rem;
-    font-weight: 500;
-    line-height: 1.1;
-  }
-  .header-role {
-    font-size: 4rem;
-    margin-bottom: 0.5rem;
-    line-height: 1.1;
-    font-family: "HelveticaNeue";
-    color: #c9af98;
-  }
-  .headshot {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    margin-right: 25px;
-  }
-}
-
-.header-container {
-  display: flex;
-  flex-direction: column;
-  margin: 25px auto;
-  justify-content: center;
-  align-items: center;
-}
-
-.header-copy-container {
-  display: flex;
-  flex-direction: column;
-  max-width: 1536px;
-  justify-content: center;
-  align-items: center;
-}
-
-.header-name {
-  font-family: "HelveticaNeue";
-  color: #c9af98;
-}
-
-@media only screen and (min-width: 992px) {
-  .header-container {
-    display: flex;
-    flex-direction: row;
-  }
-  .header-copy-container {
-    justify-content: flex-start;
-    align-items: flex-start;
-  }
-  .headshot {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    margin-right: 25px;
-  }
-  .header-role {
-    font-family: "HelveticaNeue";
-    color: #c9af98;
-    font-size: 2.5rem;
-  }
-}
-/* Header End */
-
-/* Nav Start */
-
-@media only screen and (max-width: 991px) {
-  .nav-container a {
-    display: none;
-  }
-  .nav-container a.icon {
-    float: right;
-    display: block;
-  }
-  .nav-container.responsive a {
-    float: none;
-    display: block;
-    text-align: right;
-  }
-  .nav-container.responsive {
-    flex-direction: column;
-  }
-  .fa.fa-bars {
-    font-size: 50px;
-    color: white;
-    padding: 15px;
-  }
-  .navbar-copy {
-    color: #c9af98;
-    padding-top: 0.25rem;
-    padding-bottom: 0.25rem;
-    margin-right: 1rem;
-    font-size: 3.25rem;
-    line-height: inherit;
-    white-space: nowrap;
-    justify-content: flex-end;
-    display: flex;
-  }
-}
-.nav-container {
-  background-color: #3a4660;
-  position: sticky;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  padding: 0.5rem 1rem;
-}
-@media only screen and (min-width: 992px) {
-  .nav-container a.icon {
-    display: none;
-  }
-  .navbar-copy {
-    color: #c9af98;
-    padding-top: 0.25rem;
-    padding-bottom: 0.25rem;
-    margin-right: 1rem;
-    font-size: 1.25rem;
-    line-height: inherit;
-    white-space: nowrap;
-    justify-content: flex-end;
-    display: flex;
-  }
-}
-
-.navbar-copy:hover {
-  color: #c9af98 !important;
-  text-decoration: none !important;
-  letter-spacing: 3px;
-}
-.navbar-copy:focus {
-  color: #c9af98 !important;
-  text-decoration: none !important;
-}
-
-/* Nav End */
-
 /* About Start */
-@media only screen and (max-width: 991px) {
   .about-container {
-    background-color: #c9af98;
-    max-width: 1536px;
-    width: 100%;
-    padding: 0;
-    position: relative;
-    min-height: 480px;
-    margin-left: auto;
-    margin-right: auto;
     display: flex;
     justify-content: center;
-    flex-direction: column;
     align-items: center;
-    padding: 100px 50px;
+    max-width: 44rem;
+    margin: 0 auto 1.5rem;
   }
-}
-@media only screen and (min-width: 992px) {
-  .about-container {
-    background-color: #c9af98;
-    max-width: 1536px;
-    width: 100%;
+  .headshot-container {
+    width: 24rem;
+  }
+  .headshot {
+    display: block;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  .about-body {
+    margin: 0;
     padding: 0;
-    position: relative;
-    min-height: 480px;
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    padding: 25px;
   }
+  .about-title {
+    font-size: 2.2rem;
+  }
+  .about-desc {
+    font-size: 1.6rem;
+  }
+  .phone-home {
+    color: #000C66;
+    outline: 0;
+    text-decoration: none;
+    transition: all 0.15s ease;
 }
 
-.text-center {
-  text-align: center;
-}
 /* About End */
 
 /* Resume Start */
