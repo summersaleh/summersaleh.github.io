@@ -23,6 +23,25 @@ a:focus {
   text-decoration: none !important;
 }
 
+h1 {
+  font-family: "Oswald", "Impact", sans-serif;
+  font-size: 2.4rem;
+  line-height: 1.2;
+  text-transform: lowercase;
+  text-rendering: optimizeLegibility;
+  position: relative;
+  z-index: 1;
+}
+
+h3 {
+  font-family: "Oswald", "Impact", sans-serif;
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 1.1;
+    margin: 0 0 0.3rem;
+    text-transform: lowercase;
+}
+
 /* Header Styles */
 .header {
   position: absolute;
@@ -84,34 +103,34 @@ a:focus {
   z-index: 0;
   right: 2%;
 }
-.icon-design .anchor-part {
+.icon-design-wrap.icon-design-wrap-home .icon-design .anchor-part {
   animation: move 2s linear infinite;
 }
 
-.icon-design .anchor-part--2 {
+.icon-design-wrap.icon-design-wrap-home .icon-design .anchor-part--2 {
   animation: move2 2s linear infinite;
 }
 
-.icon-design .pen-part {
+.icon-design-wrap.icon-design-wrap-home .icon-design .pen-part {
   transform-origin: 140px 180px;
   animation: bounce2 2s ease-in-out infinite;
 }
 
-.icon-design .ruler-part {
+.icon-design-wrap.icon-design-wrap-home .icon-design .ruler-part {
   transform-origin: 140px 180px;
   animation: bounce 1s ease-in-out infinite;
 }
 
-.icon-design .circle-part {
+.icon-design-wrap.icon-design-wrap-home .icon-design .circle-part {
   transform-origin: 139.8px 167.8px;
   animation: rotate 4s linear infinite;
 }
 
-.icon-design .cursor-part {
+.icon-design-wrap.icon-design-wrap-home .icon-design .cursor-part {
   animation: bounceBFt2 2s ease-in-out infinite;
 }
 
-.icon-design .hover {
+.icon-design-wrap.icon-design-wrap-home .icon-design .hover {
   animation-play-state: running;
 }
 
@@ -145,22 +164,22 @@ a:focus {
   left: 2%;
 }
 
-.icon-support .gear-s,
-.icon-support .gear-m {
+.icon-support-wrap.icon-support-wrap-home .icon-support .gear-s,
+.icon-support-wrap.icon-support-wrap-home .icon-support .gear-m {
   animation: rotate;
   animation-duration: 6s;
 }
 
-.icon-support .gear-b {
+.icon-support-wrap.icon-support-wrap-home .icon-support .gear-b {
   animation: rotate-reverse 6s;
 }
 
-.icon-support .clock {
+.icon-support-wrap.icon-support-wrap-home .icon-support .clock {
   transform-origin: 223.6px 132.8px;
   animation: rotate 12s linear infinite;
 }
 
-.icon-support .hover {
+.icon-support-wrap.icon-support-wrap-home .icon-support .hover {
   animation-play-state: running;
 }
 
@@ -203,14 +222,17 @@ a:focus {
     justify-content: center;
     align-items: center;
     max-width: 44rem;
-    margin: 0 auto 1.5rem;
+    margin: 1.5rem auto 1.5rem 3.5rem;
   }
   .headshot-container {
-    width: 24rem;
+    margin-right: 2rem;
   }
   .headshot {
-    display: block;
-  }
+    height: 9rem;
+    width: 8.4rem;
+    border-radius: 50%;
+}
+  
   img {
     max-width: 100%;
     height: auto;
@@ -254,7 +276,7 @@ a:focus {
     padding: 15px 40px;
     cursor: pointer;
     font-size: 30px;
-    background-color: #ed8a63;
+    background-color: #000C66;
     font-family: "Helvetica Neue";
   }
   .fs-30 {
@@ -268,7 +290,7 @@ a:focus {
     padding: 12px 40px;
     cursor: pointer;
     font-size: 20px;
-    background-color: #ed8a63;
+    background-color: #000C66;
     font-family: "Helvetica Neue";
   }
   .fs-18-d {
@@ -277,92 +299,3 @@ a:focus {
   }
 }
 /* Resume End */
-
-/* Portfolio Start */
-
-.portfolio-container {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  background-color: #3a4660;
-  max-width: 1536px;
-  width: 100%;
-  padding: 25px;
-  position: relative;
-  min-height: 580px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-@media only screen and (max-width: 991px) {
-  .portfolio-container {
-    flex-direction: column;
-    padding: 100px 25px;
-  }
-  .modal-styles {
-  }
-}
-/* Portfolio End */
-
-/* Modals Start */
-/* The Modal (background) */
-.modal {
-  display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
-  padding-top: 100px; /* Location of the box */
-  left: 0;
-  top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0, 0, 0); /* Fallback color */
-  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
-}
-
-/* Modal Content */
-.close1:hover,
-.close2:hover,
-.close3:hover,
-.close1:focus,
-.close2:focus,
-.close3:focus {
-  color: #fff;
-  text-decoration: none;
-  cursor: pointer;
-}
-@media only screen and (max-width: 991px) {
-  .close1,
-  .close2,
-  .close3 {
-    color: #fff;
-    font-size: 7.5rem;
-    margin-left: 25px;
-  }
-  .image-style {
-    max-width: 500px;
-    width: 100%;
-    height: auto;
-    margin: 25px;
-  }
-}
-@media only screen and (min-width: 992px) {
-  .close1,
-  .close2,
-  .close3 {
-    color: #fff;
-    font-size: 3.5rem;
-    margin-left: 25px;
-  }
-  .image-style {
-    max-width: 300px;
-    width: 100%;
-    height: auto;
-  }
-}
-
-.modal-content {
-  margin: auto;
-}
-
-/* Modals End */
