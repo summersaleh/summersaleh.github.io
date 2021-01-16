@@ -8,6 +8,13 @@ html, body, div, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, ol, ul, 
   padding: 0;
 }
 
+@media (max-width: 767px) { 
+  body {
+    padding-top: 26rem;
+  }
+}
+
+
 body {
   font-family: "proxima-nova", "HelveticaNeue", "Helvetica", "Arial", sans-serif;
   font-size: 1.1rem;
@@ -46,6 +53,17 @@ h3 {
 }
 
 /* Header Styles */
+@media (max-width: 767px) {
+  .header {
+    font-size: 2.7rem;
+    padding: 2.5rem 2.5rem 0 0;
+  }
+  .name__intro {
+    color: #100;
+    display: block;
+    font-size: 1.6rem;
+  }
+}
 .header {
   position: absolute;
   top: 0;
