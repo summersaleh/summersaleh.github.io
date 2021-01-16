@@ -1,10 +1,13 @@
 /* <!-- Styles for Portfolio --> */
 * {
   box-sizing: border-box;
+}
+
+html, body, div, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, ol, ul, li, form, fieldset, legend, label, table, header, footer, nav, section, figure {
   margin: 0;
   padding: 0;
-  /* font-size: 16px; */
 }
+
 body {
   font-family: "proxima-nova", "HelveticaNeue", "Helvetica", "Arial", sans-serif;
   font-size: 1.1rem;
@@ -93,94 +96,6 @@ h3 {
   color: #100;
   display: block;
   font-size: 0.6rem;
-}
-
-/* Design Icon Styles Start */
-.icon-design-wrap.icon-design-wrap-home {
-  width: 15rem;
-  position: absolute;
-  bottom: 0;
-  z-index: 0;
-  right: 2%;
-}
-.icon-design-wrap.icon-design-wrap-home .icon-design .anchor-part {
-  animation: move 2s linear infinite;
-}
-
-.icon-design-wrap.icon-design-wrap-home .icon-design .anchor-part--2 {
-  animation: move2 2s linear infinite;
-}
-
-.icon-design-wrap.icon-design-wrap-home .icon-design .pen-part {
-  transform-origin: 140px 180px;
-  animation: bounce2 2s ease-in-out infinite;
-}
-
-.icon-design-wrap.icon-design-wrap-home .icon-design .ruler-part {
-  transform-origin: 140px 180px;
-  animation: bounce 1s ease-in-out infinite;
-}
-
-.icon-design-wrap.icon-design-wrap-home .icon-design .circle-part {
-  transform-origin: 139.8px 167.8px;
-  animation: rotate 4s linear infinite;
-}
-
-.icon-design-wrap.icon-design-wrap-home .icon-design .cursor-part {
-  animation: bounceBFt2 2s ease-in-out infinite;
-}
-
-.icon-design-wrap.icon-design-wrap-home .icon-design .hover {
-  animation-play-state: running;
-}
-
-@keyframes move {
-  0%,
-  100% {
-    transform: translate(1px, 1px);
-  }
-
-  50% {
-    transform: translate(-1px, -1px);
-  }
-}
-
-@keyframes move2 {
-  0%,
-  100% {
-    transform: translate(-1px, -1px);
-  }
-
-  50% {
-    transform: translate(1px, 1px);
-  }
-}
-/* Support SVG Styles */
-.icon-support-wrap.icon-support-wrap-home {
-  width: 15rem;
-  position: absolute;
-  top: 0;
-  z-index: 0;
-  left: 2%;
-}
-
-.icon-support-wrap.icon-support-wrap-home .icon-support .gear-s,
-.icon-support-wrap.icon-support-wrap-home .icon-support .gear-m {
-  animation: rotate;
-  animation-duration: 6s;
-}
-
-.icon-support-wrap.icon-support-wrap-home .icon-support .gear-b {
-  animation: rotate-reverse 6s;
-}
-
-.icon-support-wrap.icon-support-wrap-home .icon-support .clock {
-  transform-origin: 223.6px 132.8px;
-  animation: rotate 12s linear infinite;
-}
-
-.icon-support-wrap.icon-support-wrap-home .icon-support .hover {
-  animation-play-state: running;
 }
 
 /* Intro Styles */
