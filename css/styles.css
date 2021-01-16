@@ -3,17 +3,41 @@
   box-sizing: border-box;
 }
 
-html, body, div, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, ol, ul, li, form, fieldset, legend, label, table, header, footer, nav, section, figure {
+html,
+body,
+div,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+ol,
+ul,
+li,
+form,
+fieldset,
+legend,
+label,
+table,
+header,
+footer,
+nav,
+section,
+figure {
   margin: 0;
   padding: 0;
 }
 
-@media (max-width: 767px) { 
+@media (max-width: 767px) {
   body {
     padding-top: 26rem;
   }
 }
-
 
 body {
   font-family: "proxima-nova", "HelveticaNeue", "Helvetica", "Arial", sans-serif;
@@ -26,7 +50,7 @@ body {
   padding-top: 13rem;
 }
 a {
-  color: #000C66;
+  color: #000c66;
 }
 a:hover,
 a:focus {
@@ -45,11 +69,11 @@ h1 {
 
 h3 {
   font-family: "Oswald", "Impact", sans-serif;
-    font-weight: 500;
-    font-size: 1.5rem;
-    line-height: 1.1;
-    margin: 0 0 0.3rem;
-    text-transform: lowercase;
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 1.1;
+  margin: 0 0 0.3rem;
+  text-transform: lowercase;
 }
 
 /* Header Styles */
@@ -150,41 +174,44 @@ h3 {
 }
 
 /* About Start */
-  .about-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    max-width: 44rem;
-    margin: 1.5rem auto 1.5rem 3.5rem;
-  }
-  .headshot-container {
-    margin-right: 2rem;
-  }
-  .headshot {
-    height: 9rem;
-    width: 8.4rem;
-    border-radius: 50%;
+.about-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 44rem;
+  margin: 1.5rem auto 1.5rem 3.5rem;
 }
-  
-  img {
-    max-width: 100%;
-    height: auto;
-  }
-  .about-body {
-    margin: 0;
-    padding: 0;
-  }
-  .about-title {
-    font-size: 2.2rem;
-  }
-  .about-desc {
-    font-size: 1.6rem;
-  }
-  .phone-home {
-    color: #000C66;
-    outline: 0;
-    text-decoration: none;
-    transition: all 0.15s ease;
+.headshot-container {
+  display: block;
+  border: 3px solid #100;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 2rem;
+  max-width: none;
+}
+.headshot {
+  display: block;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+.about-body {
+  margin: 0;
+  padding: 0;
+}
+.about-title {
+  font-size: 2.2rem;
+}
+.about-desc {
+  font-size: 1.6rem;
+}
+.phone-home {
+  color: #000c66;
+  outline: 0;
+  text-decoration: none;
+  transition: all 0.15s ease;
 }
 
 /* About End */
@@ -209,7 +236,7 @@ h3 {
     padding: 15px 40px;
     cursor: pointer;
     font-size: 30px;
-    background-color: #000C66;
+    background-color: #000c66;
     font-family: "Helvetica Neue";
   }
   .fs-30 {
@@ -223,7 +250,7 @@ h3 {
     padding: 12px 40px;
     cursor: pointer;
     font-size: 20px;
-    background-color: #000C66;
+    background-color: #000c66;
     font-family: "Helvetica Neue";
   }
   .fs-18-d {
