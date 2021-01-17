@@ -33,7 +33,7 @@ figure {
   padding: 0;
 }
 
-@media (max-width: 767px) {
+@media only screen and (max-width: 767px) {
   body {
     padding-top: 26rem;
   }
@@ -76,8 +76,8 @@ h3 {
   text-transform: lowercase;
 }
 
-/* Header Styles */
-@media (max-width: 767px) {
+/* HEADER STYLES */
+@media only screen and (max-width: 767px) {
   .header {
     font-size: 2.7rem;
     padding: 2.5rem 2.5rem 0 0;
@@ -140,7 +140,7 @@ h3 {
   font-size: 0.6rem;
 }
 
-/* Intro Styles */
+/* INTRO STYLES */
 .intro-container {
   margin: 0 auto;
   padding: 0 1rem;
@@ -160,7 +160,7 @@ h3 {
 }
 .intro {
 }
-@media (min-width: 42em) {
+/* @media (min-width: 42em) {
   h1 {
     font-size: 4.5rem;
     line-height: 1.1;
@@ -171,9 +171,9 @@ h3 {
   h1 {
     font-size: 3rem;
   }
-}
+} */
 
-/* About Start */
+/* ABOUT START */
 .about-container {
   display: flex;
   justify-content: center;
@@ -214,9 +214,9 @@ img {
   transition: all 0.15s ease;
 }
 
-/* About End */
+/* ABOUT END */
 
-/* Resume Start */
+/* RESUME START */
 .resume-container {
   max-width: 1536px;
   width: 100%;
@@ -258,4 +258,4 @@ img {
     font-weight: 200;
   }
 }
-/* Resume End */
+/* RESUME END */
