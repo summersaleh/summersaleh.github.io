@@ -294,28 +294,16 @@ img {
 
 @media only screen and (max-width: 767px) {
   .header {
-    position: absolute;
-    top: 0;
-    right: 0;
-    z-index: 2;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    font-size: 2.7rem;
-    padding: 2.5rem 2.5rem 0 0;
+    font-size: 2.7rem !important;
+    padding: 2.5rem 2.5rem 0 0 !important;
   }
   .name__intro {
-    color: #100;
-    display: block;
-    font-size: 1.6rem;
+    font-size: 1.6rem !important;
   }
   .l-container {
-    margin: 0 auto;
-    padding: 0 1rem;
-    max-width: 44rem;
-    position: relative;
+    max-width: 44rem !important;
   }
   body {
-    padding-top: 26rem;
+    padding-top: 26rem !important;
   }
 }
