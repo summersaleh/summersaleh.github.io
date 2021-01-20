@@ -75,9 +75,20 @@ h3 {
   text-transform: lowercase;
 }
 
+ul {
+  list-style-type: none;
+}
+
 /* HEADER STYLES */
 @media only screen and (max-width: 767px) {
 .header {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
   font-size: 2.7rem;
   padding: 2.5rem 2.5rem 0 0;
 }
@@ -106,16 +117,7 @@ h3 {
     font-size: 0.6rem;
   }
 }
-.header {
-  position: absolute;
-  top: 0;
-  right: 0;
-  z-index: 2;
-  padding: 1rem 1rem 0 0;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-}
+
 .primary-nav {
   margin: 0;
   padding: 0;
@@ -280,15 +282,26 @@ img {
   padding: 2rem 0;
 }
 
-.l-container--wide {
-  max-width: 79.2rem;
+@media only screen and (max-width: 767px) { 
+  .l-container {
+    margin: 0 auto;
+    padding: 0 1rem;
+    max-width: 44rem;
+    position: relative;
+  }
 }
-.l-container {
-  margin: 0 auto;
-  padding: 0 1rem;
-  max-width: 44rem;
-  position: relative;
+
+@media only screen and (min-width: 768px) { 
+  .l-container {
+    margin: 0 auto;
+    padding: 0 1rem;
+    max-width: 79.2rem;
+    position: relative;
+  }
 }
+
+
+
 
 @media (min-width: 38em) {
 .l-grid--wowee-zowee {
