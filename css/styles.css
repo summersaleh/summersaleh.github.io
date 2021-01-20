@@ -292,7 +292,7 @@ img {
   line-height: 1.35;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 992px) {
   .header {
     font-size: 1.1rem !important;
     padding: 1rem 1rem 0 0 !important;
