@@ -41,7 +41,7 @@ body {
   background: #f6f5de;
   word-wrap: break-word;
   word-break: break-word;
-  padding-top: 13rem;
+  padding-top: 26rem;
 }
 
 a {
@@ -116,17 +116,17 @@ ul {
   top: 0;
   right: 0;
   z-index: 2;
-  font-size: 1.1rem;
-  padding: 1rem 1rem 0 0;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
+  font-size: 2.7rem;
+  padding: 2.5rem 2.5rem 0 0;
 }
 
 .name__intro {
   color: #100;
   display: block;
-  font-size: 0.6rem;
+  font-size: 1.6rem;
 }
 
 /* INTRO STYLES */
@@ -240,7 +240,7 @@ img {
 .l-container {
   margin: 0 auto;
   padding: 0 1rem;
-  max-width: 79.2rem;
+  max-width: 44rem;
   position: relative;
 }
 
@@ -292,18 +292,18 @@ img {
   line-height: 1.35;
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (min-width: 768px) {
   .header {
-    font-size: 2.7rem !important;
-    padding: 2.5rem 2.5rem 0 0 !important;
+    font-size: 1.1rem !important;
+    padding: 1rem 1rem 0 0 !important;
   }
   .name__intro {
-    font-size: 1.6rem !important;
+    font-size: 0.6rem !important;
   }
   .l-container {
-    max-width: 44rem !important;
+    max-width: 79.2rem !important;
   }
   body {
-    padding-top: 26rem !important;
+    padding-top: 13rem !important;
   }
 }
