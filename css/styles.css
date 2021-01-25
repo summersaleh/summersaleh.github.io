@@ -290,6 +290,7 @@ img {
 .c-block__desc {
   margin: 0;
   line-height: 1.35;
+  font-size: 2.6rem;
 }
 
 @media only screen and (min-width: 992px) {
@@ -299,6 +300,13 @@ img {
   }
   .name__intro {
     font-size: 0.6rem !important;
+  }
+  .intro-container {
+    margin: 0 auto;
+    padding: 0 1rem;
+    max-width: 39rem;
+    position: relative;
+    z-index: 1;
   }
   .l-container {
     max-width: 79.2rem !important;
@@ -326,6 +334,6 @@ img {
   .c-block__desc {
     margin: 0;
     line-height: 1.35;
-    font-size: 2.6rem;
+    font-size: unset;
   }
 }
