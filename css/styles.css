@@ -149,7 +149,6 @@ ul {
   display: flex;
   justify-content: center;
   align-items: center;
-  max-width: 44rem;
   margin: 5rem 2rem;
 }
 .headshot-container {
@@ -350,8 +349,10 @@ img {
     align-items: center;
     max-width: 44rem;
     margin: 1.5rem auto 1.5rem 3.5rem;
+    width: unset;
   }
   .headshot-container {
+    width: unset;
     display: block;
     border: 3px solid #100;
     border-radius: 50%;
