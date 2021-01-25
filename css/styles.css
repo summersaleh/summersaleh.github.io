@@ -150,7 +150,7 @@ ul {
   justify-content: center;
   align-items: center;
   max-width: 44rem;
-  margin: 1.5rem auto 1.5rem 3.5rem;
+  margin: 5rem 2rem;
 }
 .headshot-container {
   display: block;
@@ -159,6 +159,7 @@ ul {
   overflow: hidden;
   margin-right: 2rem;
   max-width: none;
+  width: 30%;
 }
 .headshot {
   display: block;
@@ -171,12 +172,13 @@ img {
 .about-body {
   margin: 0;
   padding: 0;
+  width: 70%;
 }
 .about-title {
-  font-size: 2.2rem;
+  font-size: 3.8rem;
 }
 .about-desc {
-  font-size: 1.6rem;
+  font-size: 2.7rem;
 }
 .phone-home {
   color: #000c66;
@@ -311,6 +313,9 @@ img {
   .l-container {
     max-width: 79.2rem !important;
   }
+  .about-title {
+    font-size: 2.2rem;
+  }
   h1 {
     font-family: "Oswald", "Impact", sans-serif;
     font-size: 2.4rem;
@@ -335,5 +340,28 @@ img {
     margin: 0;
     line-height: 1.35;
     font-size: unset;
+  }
+  .about-desc {
+    font-size: 1.6rem;
+  }
+  .about-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 44rem;
+    margin: 1.5rem auto 1.5rem 3.5rem;
+  }
+  .headshot-container {
+    display: block;
+    border: 3px solid #100;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 2rem;
+    max-width: none;
+  }
+  .about-body {
+    margin: 0;
+    padding: 0;
+    width: unset;
   }
 }
