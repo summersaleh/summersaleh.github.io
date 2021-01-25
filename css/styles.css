@@ -363,7 +363,7 @@ img {
     width: unset;
   }
   .headshot-container {
-    width: unset;
+    width: 50%;
     display: block;
     border: 3px solid #100;
     border-radius: 50%;
