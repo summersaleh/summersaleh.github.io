@@ -50,6 +50,7 @@ a {
 a:hover,
 a:focus {
   text-decoration: none !important;
+  color: #000c66;
 }
 
 h1 {
@@ -241,15 +242,15 @@ img {
 .l-container {
   margin: 0 auto;
   padding: 0 1rem;
-  max-width: 44rem;
+  max-width: 55rem;
   position: relative;
 }
 
-@media (min-width: 38em) {
+/* @media (min-width: 38em) {
   .l-grid--wowee-zowee {
     grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
   }
-}
+} */
 
 .l-grid--wowee-zowee {
   display: grid;
@@ -279,6 +280,16 @@ img {
   outline: 1rem solid rgba(205, 202, 162, 0);
   transition: all 0.2s ease;
 }
+.c-block--boxed:hover, .c-block--boxed:focus {
+  outline: 1rem solid rgba(205, 202, 162, 0);
+}
+.c-block--link:hover, .c-block--link:focus {
+  outline: 1rem solid rgba(205, 202, 162, 0.16);
+  background: rgba(205, 202, 162, 0.16);
+  color: inherit;
+  transform: scale(1.02);
+}
+
 .c-block {
   display: block;
 }
