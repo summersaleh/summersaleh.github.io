@@ -54,7 +54,7 @@ a:focus {
 
 h1 {
   font-family: "Oswald", "Impact", sans-serif;
-  font-size: 2.4rem;
+  font-size: 4.5rem;
   line-height: 1.2;
   text-transform: lowercase;
   text-rendering: optimizeLegibility;
@@ -119,14 +119,14 @@ ul {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  font-size: 2.7rem;
+  font-size: 3.1rem;
   padding: 2.5rem 2.5rem 0 0;
 }
 
 .name__intro {
   color: #100;
   display: block;
-  font-size: 1.6rem;
+  font-size: 1.9rem;
 }
 
 /* INTRO STYLES */
@@ -302,6 +302,15 @@ img {
   }
   .l-container {
     max-width: 79.2rem !important;
+  }
+  h1 {
+    font-family: "Oswald", "Impact", sans-serif;
+    font-size: 2.4rem;
+    line-height: 1.2;
+    text-transform: lowercase;
+    text-rendering: optimizeLegibility;
+    position: relative;
+    z-index: 1;
   }
   body {
     padding-top: 13rem !important;
