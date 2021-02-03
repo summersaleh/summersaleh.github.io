@@ -139,6 +139,10 @@ h3 {
 .l-grid__item {
   list-style-type: none;
 }
+.indent-list {
+  list-style-type: none;
+  padding-left: 0.5rem;
+}
 
 /* HEADER STYLES */
 .primary-nav {
