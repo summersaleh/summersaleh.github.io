@@ -374,8 +374,8 @@ img {
     margin-bottom: 0.5rem;
   }
 
-  ul {
-    list-style-type: disc;
+  .work-list {
+    list-style-type: disc !important;
   }
   h1 {
     font-family: "Oswald", "Impact", sans-serif;
