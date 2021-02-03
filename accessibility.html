@@ -31,10 +31,67 @@
 
   <div class="access-container" id="access">
     <h1 class="access-title">FabFitFun Accessibility Evaluation</h1>
+    <h3>This project through Kent State required performing an accessibility evaluation using the three methods that we learned about – automated code inspection, manual code evaluation, and experience walkthrough - as well as reporting the results of your evaluation and providing recommendations. </h3>
+    <p>The report describes the results of an accessibility evaluation conducted on www.FabFitFun.com. Also, provided in this report are recommendations for bringing FabFitFun website into compliance with the World Wide Web Consortium’s Web Accessibility Initiative (W3C WAI) for Web Content Authoring Guidelines (WCAG), version 2.1. The WCAG can be found at this URL: https://www.w3.org/TR/WCAG21/. Below is a summary of the project goals and scope.</p>
+
+    <h3>Project Goals</h3>
+    <p>The goals of this project are to conduct an accessibility evaluation of www.FabFitFun.com using three evaluation methods:</p> 
+    <p><strong>Automated code inspection:</strong> using SortSite, a PowerMapper proprietary online tool, we will check the website for broken links, accessibility issues, web standards along with spelling errors and browser compatibility.</p>
+    <p><strong>Manual code inspection:</strong> we will perform a manual code inspection to address areas of coding that might not be covered by the automated tool, such as the accuracy of ALT text and the overall layout of the page; </p>
+    <p><strong>Experience walkthrough:</strong> we will simulate visual and motor skills impairment situations to verify the website’s accessibility and usability from a practical point of view. We will employ the following criteria for the experience walkthrough:</p>
+    
+    <h3>Scope</h3>
+    <p>This evaluation covered the following areas of the site:</p>
+    <ul>
+        <li>Main page (<a>https://fabfitfun.com</a>)</li>
+        <li>Product search under shop page (<a>https://fabfitfun.com/shop/</a>)</li>
+        <li>Product detail page (<a>https://fabfitfun.com/product/holiday-spirit-bundle/</a>)</li>
+    </ul>
+    <h3>Executive Summary</h3>
+    <p><strong>Overview</strong></p>
+    <p>This report describes the results of an accessibility evaluation conducted
+      on <a>www.FabFitFun.com</a> along with our findings and recommendations
+      for bringing the website into compliance with WCAG, version 2.1.</p>
+    <p><strong>Timeframe, Scope and Methodology</strong></p>
+    <p>From 04/16/20 to 04/28/20 the accessibility evaluation was performed by using 3 different approaches: automatic code inspection, manual code inspection, and walkthrough experience. The pages evaluated are:</p>
+    <ul>
+      <li>Main page</li>
+      <li>Product search under shop page</li>
+      <li>Product detail page</li>
+    </ul>
+    <p><strong>Results: Automated & Manual Code Inspection</strong></p>
+    <p>54 of 78 existing checkpoints were applicable to the site, and 38 of those 54 points passed on the inspection.</p>
+        <img src="images/results_autocode.png">
+    <p><strong>Results: Walkthrough Experiences</strong></p>
+    <p>descriptions and proper button labeling made the overall experience very difficult.</p>
+    <p><strong>Common failures</strong></p>
+    <ul>
+      <li>Keyboard accessibility</li>
+      <li>Missing Non-text content (Alt ” “)</li>
+      <li>Structural gaps (relationship among assets, focus order, parsing and UI
+        components, duplicated IDs, incomplete button labeling)</li>
+    </ul>
+    <p><strong>Recommendations</strong></p>
+    <ul>
+      <li>Make the site entirely keyboard accessible, regardless whether
+        the user has the VoiceOver feature active or not. Not every person with
+        grasping issues, needs VoiceOver assistance.</li>
+      <li>Correct all duplicated IDs;</li>
+      <li>Improve the color ratio so users with visual disabilities
+        can navigate the site properly;</li>
+      <li>Add a detailed description of all images so screen readers can describe them to those visually impaired;</li>
+      <li>Identify buttons properly to prevent screen readers
+        from reading the same word twice;</li>
+      <li>Identify the number next to the add to cart button as quantity so screen readers can properly describe the content to the user;</li>
+      <li>Identify from and to on sale items so the screen reader
+        can properly read the strikethrough fonts;</li>
+    </ul>
   </div>
+
+
   <div class="resume-container" id="resume">
-    <a href="docs/SummerSalehResume.pdf" download="SummerSalehResume.pdf" rel="noopener" target="_blank">
-      <button class="download-button" id="" type="button">VIEW RESUME</button>
+    <a href="docs/Accessibility_Evaluation_Report.pdf" download="Accessibility_Evaluation_Report.pdf" rel="noopener" target="_blank">
+      <button class="download-button" id="" type="button">View Full Accessibility Evaluation Report</button>
     </a>
   </div>
   <footer class="c-footer" role="contentinfo" id="work">
@@ -42,32 +99,32 @@
   <ul class="l-grid l-grid--wowee-zowee">
 	<li class="l-grid__item">
 		<a href="/anf1" class="c-block c-block--boxed c-block--link">
-			<h3 class="c-block__title">Abercrombie Kids Mobile Navigation</h3>
-			<p class="c-block__desc"></p>
+			<h3 class="c-block__title">Abercrombie Outerwear Visual Filters</h3>
+			<p class="c-block__desc">Tested variations of outerwear visual filters with current/potential A&F shoppers to gain qualitative insight on how users prioritize attributess when shopping for outerwear, and if this changes between fashion/functional outerwear.</p>
 		</a><!--end c-block-->
 
   </li><!--end l-grid__item-->
 
   <li class="l-grid__item">
 		<a href="/anf2" class="c-block c-block--boxed c-block--link">
-			<h3 class="c-block__title">Abercrombie Kids Shorts Category Filter</h3>
-			<p class="c-block__desc"></p>
+			<h3 class="c-block__title">Abercrombie PDP Subcategories</h3>
+			<p class="c-block__desc">Observe users' behavior as they interact with 5 design variations of subcategories on PDP, collecting qualitative feedback and identifying any points of friction and survey users on understandability, ease of use, perceived values, and overall preference of the design variations.</p>
 		</a><!--end c-block-->
 
 	</li><!--end l-grid__item-->
 
-	<li class="l-grid__item">
+	<!-- <li class="l-grid__item">
 		<a href="/dating-app-analysis" class="c-block c-block--boxed c-block--link">
 			<h3 class="c-block__title">Dating Apps Analysis</h3>
-			<p class="c-block__desc"></p>
+			<p class="c-block__desc"></p> -->
 		</a><!--end c-block-->
 
 	</li><!--end l-grid__item-->
 
 	<li class="l-grid__item">
-		<a href="/fff-accessibility" class="c-block c-block--boxed c-block--link">
+		<a href="/accessibility" class="c-block c-block--boxed c-block--link">
 			<h3 class="c-block__title">FabFitFun Accessibility Evaluation</h3>
-			<p class="c-block__desc"></p>
+			<p class="c-block__desc">This project through Kent State required performing an accessibility evaluation using the three methods that we learned about – automated code inspection, manual code evaluation, and experience walkthrough - as well as reporting the results of your evaluation and providing recommendations.</p>
 		</a><!--end c-block-->
 
 	</li><!--end l-grid__item-->
@@ -75,7 +132,7 @@
 	<li class="l-grid__item">
 		<a href="/library-architecture" class="c-block c-block--boxed c-block--link">
 			<h3 class="c-block__title">Taylor Community Library Information Architecture</h3>
-			<p class="c-block__desc"></p>
+			<p class="c-block__desc">The Taylor Community Library’s mission is to provide knowledge and information to the users of their site. Their users need to be able to complete all tasks such as: finding the library catalog, information about student reading program times, reserving a meeting room, etc.</p>
 		</a><!--end c-block-->
 	</li><!--end l-grid__item-->
 </ul><!--end l-grid-->
