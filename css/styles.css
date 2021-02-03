@@ -328,6 +328,30 @@ img {
   .img-size {
     width: 300px;
   }
+
+  .acess-container {
+    margin: auto 5.5rem;
+  }
+
+  .acess-title {
+    text-align: center;
+    margin-bottom: 2.5rem;
+  }
+
+  .flex-container {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .flex-1 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .flex-2 {
+    display: flex;
+    flex-direction: column;
+  }
   h1 {
     font-family: "Oswald", "Impact", sans-serif;
     font-size: 2.4rem;
