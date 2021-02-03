@@ -72,10 +72,6 @@ h3 {
   text-transform: lowercase;
 }
 
-ul {
-  list-style-type: none;
-}
-
 /* HEADER STYLES */
 .primary-nav {
   margin: 0;
@@ -375,7 +371,10 @@ img {
   }
 
   .work-list {
-    list-style-type: disc !important;
+    list-style-type: disc;
+  }
+  .l-grid__item {
+    list-style-type: none;
   }
   h1 {
     font-family: "Oswald", "Impact", sans-serif;
