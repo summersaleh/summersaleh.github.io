@@ -326,6 +326,11 @@ img {
     align-self: center;
   }
 
+  .img-size-long {
+    width: 900px;
+    align-self: center;
+  }
+
   .access-container {
     margin: auto 5.5rem;
   }
@@ -343,6 +348,7 @@ img {
   .flex-container-column {
     display: flex;
     flex-direction: column;
+    margin-bottom: 1rem;
   }
 
   .flex-1 {
