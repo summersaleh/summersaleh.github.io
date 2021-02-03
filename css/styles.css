@@ -326,7 +326,8 @@ img {
   }
 
   .img-size {
-    width: 300px;
+    width: 450px;
+    align-self: center;
   }
 
   .access-container {
@@ -348,6 +349,7 @@ img {
     flex-direction: column;
     width: 50%;
     flex-basis: 50%;
+    margin: 1rem;
   }
 
   .flex-2 {
@@ -355,6 +357,17 @@ img {
     flex-direction: column;
     width: 50%;
     flex-basis: 50%;
+    margin: 1rem;
+  }
+
+  .access-subtitle {
+    font-size: 1.8rem;
+    text-transform: none;
+  }
+
+  .work-copy {
+    font-size: 1.2rem;
+    font-weight: 600;
   }
   h1 {
     font-family: "Oswald", "Impact", sans-serif;
