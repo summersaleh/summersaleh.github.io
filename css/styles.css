@@ -301,7 +301,11 @@ img {
   }
 }
 /* RESUME END */
-
+/* VIDEO START */
+.video {
+  align-self: center;
+}
+/* VIDEO END */
 /* FOOTER START */
 
 .c-footer {
